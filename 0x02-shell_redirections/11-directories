@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d1 | wc -l
+ls -lRa | sort -d | wc -l
